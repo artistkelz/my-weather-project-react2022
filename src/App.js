@@ -9,6 +9,7 @@ export default function App() {
         <a
           href="https://github.com/artistkelz/my-weather-project-react2022"
           target="_blank"
+          rel="noreferrer"
         >
           GitHub
         </a>
