@@ -1,8 +1,9 @@
 .Weather {
   border: 1px solid black;
   border-radius: 4px;
-  font-family: Google Sans, arial, sans-serif;
+  font-family: "Inconsolata", monospace;
   padding: 16px;
+  background-color: #9896f1;
 }
 
 .Weather h1 {
@@ -18,21 +19,25 @@
 }
 
 .Weather li {
-  color: #9aa0a6;
+  color: black;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
 }
 
-.Weather .float-left {
-  float: left;
-}
-
 .Weather canvas {
   margin-right: 10px;
   margin-top: 5px;
   display: inline-block;
+}
+
+.Weather .form-control {
+  background-color: #74dbf0;
+}
+
+.Weather .float-left {
+  float: left;
 }
 
 .Weather .temperature {
@@ -48,4 +53,10 @@
   font-weight: 400;
   position: relative;
   top: -32px;
+  text-decoration: none;
+}
+
+.Weather .WeatherTemperature a {
+  text-decoration: none;
+  color: #2fd2f2;
 }
